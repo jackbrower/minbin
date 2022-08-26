@@ -1,0 +1,2 @@
+# minbin
+Minimal pastebin
