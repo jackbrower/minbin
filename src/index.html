@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>minbin.lol</title>
+	<link rel="stylesheet" href="css/style.css">
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <!-- Remember to compile js with https://developers.google.com/closure/compiler/?csw=1 before deploying -->
+    <script type="text/javascript" src="./js/header.js"></script>
+</head>
+
+<body>
+    <!-- No top bar, only vim -->
+    <textarea spellcheck="false" class="plain__editor">
+           _       _     _         _       _ 
+          (_)     | |   (_)       | |     | |
+ _ __ ___  _ _ __ | |__  _ _ __   | | ___ | |
+| '_ ` _ \| | '_ \| '_ \| | '_ \  | |/ _ \| |
+| | | | | | | | | | |_) | | | | |_| | (_) | |
+|_| |_| |_|_|_| |_|_.__/|_|_| |_(_)_|\___/|_|
+A minimal text editor that uses VIM keybindings
+    
+## Additional Normal Mode Commands ##
+:w - Write the file and export to a URL. 
+:pw <password> - Create a password. This will be used to encrypt your files prior to being sent for storage.
+:expire <time, in hours> - Set a time for your file to be deleted after being saved. All files are stored for a max of one year (8766 hours).
+:burn - Toggles burning (deleting) the file after being accessed.
+
+## Source ##
+https://github.com/jackbrower/minbin
+    </textarea>
+</body>
+</html>

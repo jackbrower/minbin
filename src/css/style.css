@@ -1,0 +1,50 @@
+/* base16 @ https://chriskempson.com/projects/base16/styles.css */
+
+:root {
+    --base00: #181818;
+    --base01: #282828;
+    --base02: #383838;
+    --base03: #585858;
+    --base04: #b8b8b8;
+    --base05: #d8d8d8;
+    --base06: #e8e8e8;
+    --base07: #f8f8f8;
+    --base08: #ab4642;
+    --base09: #dc9656;
+    --base0A: #f7ca88;
+    --base0B: #a1b56c;
+    --base0C: #86c1b9;
+    --base0D: #7cafc2;
+    --base0E: #ba8baf;
+    --base0F: #a16946;
+}
+
+html, body {
+    height: 100%;
+}
+  
+body {
+    background: var(--base00);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0px;
+    min-width: 320px;
+}
+
+textarea {
+    background: transparent;
+    border: 0px;
+    color: var(--base07);
+    padding: 0.7rem 1.4ch;
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+    outline: none;
+    resize: none;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    line-height: 1.313;
+}
