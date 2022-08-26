@@ -48,3 +48,11 @@ textarea {
     font-size: 1.1rem;
     line-height: 1.313;
 }
+
+::selection {
+    background-color: var(--base03);
+}
+
+::-moz-selection {
+    background-color: var(--base03);
+}
