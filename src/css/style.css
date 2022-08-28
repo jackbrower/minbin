@@ -47,6 +47,11 @@ textarea {
     margin-bottom: 0;
     font-size: 1.1rem;
     line-height: 1.313;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 ::selection {
